@@ -1,7 +1,7 @@
 {
   "name": "newlanguagesupport",
   "displayName": "NewLanguageSupport",
-  "description": "(new language support)",
+  "description": "new language support",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"
@@ -12,13 +12,13 @@
   "contributes": {
     "languages": [{
       "id": "view",
-      "aliases": ["(view)", "view"],
-      "extensions": ["(.view)"],
+      "aliases": ["view", "view"],
+      "extensions": [".view"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
       "language": "view",
-      "scopeName": "(source.view)",
+      "scopeName": "source.view",
       "path": "./syntaxes/view.tmLanguage.json"
     }]
   }
